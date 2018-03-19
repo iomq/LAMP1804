@@ -1,5 +1,5 @@
 # DEVLAMP (Ubuntu 18.04)
-# 0.0.20180315.0
+# 0.0.20180319.0
 
 Docker: I/O :: MQ - PHPDEV-Ubuntu 18.04
 
@@ -10,7 +10,7 @@ external config (/docker/conf/)
 * Ubuntu 18.04
 * Apache 2.4.29
 * MySQL 5.7.21
-* PHP 7.2.2 (mod-php, xdebug, cli, phpunit, composer) (PHP 7.2: php-mcrypt del)
+* PHP 7.2.3 (mod-php, xdebug, cli, phpunit, composer) (PHP 7.2: php-mcrypt del)
 * mail: ssmtp (docker pull iomq/mailcatcher)
 * cron.d-Support
 
