@@ -1,5 +1,5 @@
 # DEVLAMP (Ubuntu 18.04)
-# 0.0.20180319.0
+# 0.0.20180320.0
 
 Docker: I/O :: MQ - PHPDEV-Ubuntu 18.04
 
