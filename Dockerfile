@@ -7,7 +7,7 @@ ENV DOCKER_DIR /docker
 ENV DOCKERXDEBUG YES
 
 # Install packages
-RUN echo "0.1.20180606.0" > /etc/iomq_version
+RUN echo "0.1.20180607.0" > /etc/iomq_version
 RUN apt-get update
 RUN apt-get -y dselect-upgrade
 RUN apt-get -y install apt-utils
@@ -33,7 +33,7 @@ RUN apt-get -y install supervisor
 RUN apt-get -y install ssmtp
 RUN apt-get -y install mysql-server mysql-client
 RUN apt-get -y install apache2
-RUN apt-get -y install libapache2-mod-php php-mysql php-gd php-curl php-xsl php-intl php-mbstring php-cli php-sqlite3 php-zip php-soap
+RUN apt-get -y install libapache2-mod-php php-mysql php-gd php-curl php-xsl php-intl php-mbstring php-cli php-sqlite3 php-zip php-soap php-bcmath
 RUN apt-get -y install php-xdebug
 RUN apt-get update -qq && apt-get -y dselect-upgrade
 
