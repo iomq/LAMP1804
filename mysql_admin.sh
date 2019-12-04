@@ -12,4 +12,4 @@ else
     echo "=> Using an existing volume of MySQL"
 fi
 
-ln -s $DOCKER_DIR/conf/mysql/myDOCKER1604.cnf /etc/mysql/conf.d/myDOCKER.cnf 
+ln -s $DOCKER_DIR/conf/mysql/myDOCKER1804.cnf /etc/mysql/conf.d/myDOCKER.cnf 
